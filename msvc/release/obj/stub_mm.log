@@ -1,0 +1,61 @@
+﻿Build started 02/06/2011 21:57:46.
+     1>Project "E:\Programming\C\metamod-1.19\match_plugin\msvc\stub_mm.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\release/obj\match_mm.lastbuildstate".
+       InitializeBuildStatus:
+         Touching ".\release/obj\match_mm.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\metamod /I"E:\Programming\C\hlsdk-2.3-p3\multiplayer\common" /I"E:\Programming\C\hlsdk-2.3-p3\multiplayer\engine" /I"E:\Programming\C\hlsdk-2.3-p3\multiplayer\dlls" /I"E:\Programming\C\hlsdk-2.3-p3\multiplayer\pm_shared" /I"E:\Programming\C\hlsdk-2.3-p3\multiplayer source\common" /I"E:\Programming\C\hlsdk-2.3-p3\multiplayer source\engine" /I"E:\Programming\C\hlsdk-2.3-p3\multiplayer source\dlls" /I"E:\Programming\C\hlsdk-2.3-p3\multiplayer source\pm_shared" /Zi /nologo /W1 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /D _USRDLL /D STUB_MM_EXPORTS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\release/obj/" /Fd".\release/inf/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dllapi.cpp ..\engine_api.cpp ..\h_export.cpp ..\meta_api.cpp ..\sdk_util.cpp
+         dllapi.cpp
+     1>E:\Programming\C\hlsdk-2.3-p3\multiplayer\engine\eiface.h(416): warning C4005: 'ARRAYSIZE' : macro redefinition
+                 c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1140) : see previous definition of 'ARRAYSIZE'
+         engine_api.cpp
+     1>E:\Programming\C\hlsdk-2.3-p3\multiplayer\engine\eiface.h(416): warning C4005: 'ARRAYSIZE' : macro redefinition
+                 c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1140) : see previous definition of 'ARRAYSIZE'
+         h_export.cpp
+     1>E:\Programming\C\hlsdk-2.3-p3\multiplayer\engine\eiface.h(416): warning C4005: 'ARRAYSIZE' : macro redefinition
+                 c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1140) : see previous definition of 'ARRAYSIZE'
+         meta_api.cpp
+     1>E:\Programming\C\hlsdk-2.3-p3\multiplayer\engine\eiface.h(416): warning C4005: 'ARRAYSIZE' : macro redefinition
+                 c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1140) : see previous definition of 'ARRAYSIZE'
+         sdk_util.cpp
+     1>E:\Programming\C\hlsdk-2.3-p3\multiplayer\engine\eiface.h(416): warning C4005: 'ARRAYSIZE' : macro redefinition
+                 c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1140) : see previous definition of 'ARRAYSIZE'
+         Generating Code...
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\metamod /I"E:\Programming\C\hlsdk-2.3-p3\multiplayer\common" /I"E:\Programming\C\hlsdk-2.3-p3\multiplayer\engine" /I"E:\Programming\C\hlsdk-2.3-p3\multiplayer\dlls" /I"E:\Programming\C\hlsdk-2.3-p3\multiplayer\pm_shared" /I"E:\Programming\C\hlsdk-2.3-p3\multiplayer source\common" /I"E:\Programming\C\hlsdk-2.3-p3\multiplayer source\engine" /I"E:\Programming\C\hlsdk-2.3-p3\multiplayer source\dlls" /I"E:\Programming\C\hlsdk-2.3-p3\multiplayer source\pm_shared" /Zi /nologo /W1 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D STUB_MM_EXPORTS /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\release/obj/" /Fd".\release/inf/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\match_status.cpp ..\messages.cpp ..\plugin.cpp
+         match_status.cpp
+     1>E:\Programming\C\hlsdk-2.3-p3\multiplayer\engine\eiface.h(416): warning C4005: 'ARRAYSIZE' : macro redefinition
+                 c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1140) : see previous definition of 'ARRAYSIZE'
+         messages.cpp
+     1>E:\Programming\C\hlsdk-2.3-p3\multiplayer\engine\eiface.h(416): warning C4005: 'ARRAYSIZE' : macro redefinition
+                 c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1140) : see previous definition of 'ARRAYSIZE'
+         plugin.cpp
+     1>E:\Programming\C\hlsdk-2.3-p3\multiplayer\engine\eiface.h(416): warning C4005: 'ARRAYSIZE' : macro redefinition
+                 c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1140) : see previous definition of 'ARRAYSIZE'
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"release/match_mm.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\match_mm.def" /MANIFEST /ManifestFile:".\release/obj\match_mm.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\release/inf/match_mm.pdb" /TLBID:1 /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:".\release/match_mm.lib" /MACHINE:X86 /DLL .\release/obj/dllapi.obj
+         .\release/obj/engine_api.obj
+         .\release/obj/h_export.obj
+         .\release/obj/match_status.obj
+         .\release/obj/messages.obj
+         .\release/obj/meta_api.obj
+         .\release/obj/plugin.obj
+         .\release/obj/sdk_util.obj
+            Creating library .\release/match_mm.lib and object .\release/match_mm.exp
+     1>match_mm.exp : warning LNK4070: /OUT:stub_mm.dll directive in .EXP differs from output filename 'release/match_mm.dll'; ignoring directive
+         stub_mm.vcxproj -> E:\Programming\C\metamod-1.19\match_plugin\msvc\.\release\match_mm.dll
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"release/match_mm.dll;#2" /manifest .\release/obj\match_mm.dll.intermediate.manifest
+       PostBuildEvent:
+         Copy E:\Programming\C\metamod-1.19\match_plugin\msvc\.\release\match_mm.dll "C:\Program Files (x86)\Steam\steamapps\godspeed300@hotmail.com\dedicated server\cstrike\addons\metamod\dlls\match_mm.dll"
+         :VCEnd
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file ".\release/obj\match_mm.unsuccessfulbuild".
+         Touching ".\release/obj\match_mm.lastbuildstate".
+     1>Done Building Project "E:\Programming\C\metamod-1.19\match_plugin\msvc\stub_mm.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.53
